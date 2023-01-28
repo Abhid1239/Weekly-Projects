@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.version-container {
+    padding: 10px;
+}
+.version-filters-container {
+    display: flex;
+    overflow-y: scroll;
+    padding-bottom: 12px;
+}
+
+.version-filter-type {
+    display: flex;
+    border-right: 1px solid red;
+}
+
+.version-filter-type:last-child {
+    border: none;
+}
+
+.version-filter-value {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #696969;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.active {
+    border-color: green;
+    color: green;
+}
+
+.version-data {
+    PADDING: 15px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.display-block {
+    display: flex;
+}
+
+.version-info {
+    font-size: 14px;
+}
+
+.version-label {
+    font-size: 18px;
+}
+
+.version-type-wrapper {
+    padding: 5px 0;
+}
+
+.version-type-data {
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
