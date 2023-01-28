@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.background-image {
+    background: url(./MGGLOSTERWALLPAPER/d-wallpaper-bg.jpg);
+    width: 100%;
+    height: 580px;
+    position: relative
+}
+.background-image-clouds {
+    background: url(./MGGLOSTERWALLPAPER/fog.png);
+    width: 200%;
+    height: 580px;
+    position: absolute;
+    top: 0px;
+    animation: move-car-left linear 50s forwards infinite; 
+}
+
+.first-car {
+    background: url(./MGGLOSTERWALLPAPER/mghector.png) no-repeat;
+    background-size: contain;
+    width: 360px;
+    height: 170px;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    animation: move-car linear 16s forwards; 
+}
+
+.first-car::before {
+    content: "";
+    background: url(./MGGLOSTERWALLPAPER/hector-wheel.png) no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    left: 47px;
+    bottom: 15px;
+    animation: rotate-tyre 4s linear infinite;
+}
+
+.first-car::after {
+    content: "";
+    background: url(./MGGLOSTERWALLPAPER/hector-wheel.png) no-repeat;
+    background-size: contain;
+    background-size: auto;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 47px;
+    animation: rotate-tyre 4s linear infinite;
+}
+.second-car {
+    background: url(./MGGLOSTERWALLPAPER/mgzs.png) no-repeat;
+    background-size: contain;
+    width: 302px;
+    height: 150px;
+    position: absolute;
+    top: 35%;
+    right: 50px;
+    animation: move-car-left linear 16s forwards
+}
+
+.second-car::before {
+    content: "";
+    background: url(./MGGLOSTERWALLPAPER/mgzswheel.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    bottom: 5px;
+    position: absolute;
+    left: 40px;
+    animation: rotate-tyre 4s linear reverse infinite;
+}
+
+.second-car::after {
+    content: "";
+    background: url(./MGGLOSTERWALLPAPER/mgzswheel.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    bottom: 5px;
+    position: absolute;
+    right:  40px;
+    animation: rotate-tyre 4s linear reverse infinite;
+}
+
+.third-car {
+    background: url(./MGGLOSTERWALLPAPER/gloster-front-view.png) no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,0px) scale(0.6);
+    opacity: 0;
+    animation: scale-car linear 6s forwards 6.5s;
+}
+
+.background-intro{
+    background: url(./MGGLOSTERWALLPAPER/now-introducing-gloster.png) no-repeat;
+    background-size: contain;
+    width: 520px;
+    height: 240px;
+    top: 40%;
+    position: absolute;
+    left: calc(50% - 260px);
+    opacity: 0;
+    animation: move-car-upwards linear 6s forwards 6.5s;
+}
+
+@keyframes move-car {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(100vw)
+    }
+}
+
+@keyframes move-car-left {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes rotate-tyre {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale-car {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%,60px) scale(1.8);
+    }
+}
+
+@keyframes move-car-upwards {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-110px);
+    }  
+}
