@@ -1,0 +1,314 @@
+[
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 21,
+          "value": "Automatic CVT"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 32,
+          "value": "5 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "LDI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 13,
+          "value": "Petorl"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 33,
+          "value": "7 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 12,
+          "value": "CNG"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 23,
+          "value": "Automatic + Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 23,
+          "value": "Automatic + Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "LDI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 33,
+          "value": "7 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 34,
+          "value": "8 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": false,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 12,
+          "value": "CNG"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 23,
+          "value": "Automatic + Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "LDI",
+      "isDiscontinued": true,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+      "fuelType": {
+        "itemId": 1,
+        "customId": 11,
+        "value": "diesel"
+      },
+      "TransimissionType": {
+        "itemId": 2,
+        "customId": 21,
+        "value": "Automatic CVT"
+      },
+      "SeaterType": {
+        "itemId": 3,
+        "customId": 32,
+        "value": "5 Seater"
+      }
+    },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": true,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 12,
+          "value": "CNG"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 23,
+          "value": "Automatic + Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "LDI",
+      "isDiscontinued": true,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 11,
+          "value": "diesel"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 34,
+          "value": "8 Seater"
+        }
+      },
+      "onClick": null
+    },
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": true,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 12,
+          "value": "CNG"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 34,
+          "value": "8 Seater"
+        }
+      },
+      "onClick": null
+    },
+
+    {
+      "verlabel": "VXI",
+      "isDiscontinued": true,
+      "verid": "5547",
+      "verprice": "₹ 12.09 Lakhs",
+      "verinfo": {
+        "fuelType": {
+          "itemId": 1,
+          "customId": 12,
+          "value": "CNG"
+        },
+        "TransimissionType": {
+          "itemId": 2,
+          "customId": 22,
+          "value": "Manual"
+        },
+        "SeaterType": {
+          "itemId": 3,
+          "customId": 31,
+          "value": "3 Seater"
+        }
+      },
+      "onClick": null
+    }
+  ]
