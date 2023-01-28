@@ -1,0 +1,14 @@
+{
+  "name": "product-catalog",
+  "version": "1.0.0",
+  "description": "Basic product catalog design on client side renderred",
+  "main": "product-listing-catalog.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek desai",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
